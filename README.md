@@ -34,10 +34,10 @@ codex://pets/install?name=kimi&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%
 | `kimi/spritesheet.webp` | 透明动画图集，含九种状态和十六个注视方向 |
 | `previews/` | 实际工作动画与探头效果示意 |
 
-美术由 ImageGen 参考 kimi 的照片绘制。仓库分享的是桌宠成品和预览图。
+美术由 ImageGen 参考 kimi 的照片绘制。桌宠美术及本说明以 **LiyuanMAI** 署名，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 分享。
 
 ## Install in English
 
-kimi is a long-haired tabby-and-white kitten for Codex Desktop. When Codex works, the kitten curls into a spinning ball, then arches sideways with a puffed-up tail.
+kimi is a long-haired Selkirk Rex kitten for Codex Desktop. When Codex works, the kitten curls into a spinning ball, then arches sideways with a puffed-up tail.
 
 [Download the pet](https://github.com/LiyuanMAI/Kimi/archive/refs/tags/v1.0.0.zip). Extract the ZIP and copy the inner `kimi` folder to `~/.codex/pets/` (Windows: `%USERPROFILE%\.codex\pets\`). Open **Settings → Pets**, refresh, and select **kimi**. The link above the manual instructions opens the native install flow in supported desktop clients.
