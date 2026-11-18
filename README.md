@@ -4,17 +4,21 @@
 
 ![kimi 在工作状态下转圈](previews/working.gif)
 
+向左或向右拖动时，kimi 会朝着跑动方向看。短短的白口鼻和圆脸颊取自它在猫包里向外张望的侧脸，竖起的蓬松尾巴会在尖端打个弯。
+
+![kimi 向左和向右奔跑](previews/side-run.gif)
+
 ## 安装到 Codex
 
 把下面的整行链接复制到浏览器地址栏，按回车，在 Codex 打开的安装页确认。这条链接使用 v2 动画图集。
 
 ```text
-codex://pets/install?name=kimi&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FLiyuanMAI%2FKimi%2F59bd1d4e6abc9f8f4d3b99869a1978c34ad102d5%2Fkimi%2Fspritesheet.webp&spriteVersionNumber=2
+codex://pets/install?name=kimi&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FLiyuanMAI%2FKimi%2Fv1.0.1%2Fkimi%2Fspritesheet.webp&spriteVersionNumber=2
 ```
 
 也可以手动安装：
 
-1. [下载 kimi 桌宠 ZIP](https://github.com/LiyuanMAI/Kimi/archive/refs/tags/v1.0.0.zip)，解压后找到包含 `pet.json` 和 `spritesheet.webp` 的内层 `kimi` 文件夹。
+1. [下载 kimi 桌宠 ZIP](https://github.com/LiyuanMAI/Kimi/releases/download/v1.0.1/kimi-codex-pet.zip)，解压后找到包含 `pet.json` 和 `spritesheet.webp` 的 `kimi` 文件夹。
 2. Windows 用户把这个文件夹放进 `%USERPROFILE%\.codex\pets\`。macOS 用户放进 `~/.codex/pets/`。如果设置过 `CODEX_HOME`，请使用该目录下的 `pets` 文件夹。
 3. 在桌面客户端打开「设置 → 宠物（Pets）」，刷新并选中 **kimi**。如果浮窗已收起，点「唤醒宠物（Wake Pet）」。
 
@@ -32,7 +36,7 @@ codex://pets/install?name=kimi&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%
 | --- | --- |
 | `kimi/pet.json` | Codex 桌宠名称和格式版本 |
 | `kimi/spritesheet.webp` | 透明动画图集，含九种状态和十六个注视方向 |
-| `previews/` | 实际工作动画与探头效果示意 |
+| `previews/` | 毛球转圈、左右奔跑和探头示意 |
 
 美术由 ImageGen 参考 kimi 的照片绘制。桌宠美术及本说明以 **LiyuanMAI** 署名，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 分享。
 
@@ -40,4 +44,4 @@ codex://pets/install?name=kimi&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%
 
 kimi is a long-haired Selkirk Rex kitten for Codex Desktop. When Codex works, the kitten curls into a spinning ball, then arches sideways with a puffed-up tail.
 
-[Download the pet](https://github.com/LiyuanMAI/Kimi/archive/refs/tags/v1.0.0.zip). Extract the ZIP and copy the inner `kimi` folder to `~/.codex/pets/` (Windows: `%USERPROFILE%\.codex\pets\`). Open **Settings → Pets**, refresh, and select **kimi**. The link above the manual instructions opens the native install flow in supported desktop clients.
+[Download the pet](https://github.com/LiyuanMAI/Kimi/releases/download/v1.0.1/kimi-codex-pet.zip). Extract the ZIP and copy the `kimi` folder to `~/.codex/pets/` (Windows: `%USERPROFILE%\.codex\pets\`). Open **Settings → Pets**, refresh, and select **kimi**. The link above the manual instructions opens the native install flow in supported desktop clients.
